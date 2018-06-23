@@ -6,8 +6,9 @@ def my_all?(collection)
     if yield(collection[i] ) != true
       false
       break
+    end
     i += 1
-
+    
 
   end
 end
